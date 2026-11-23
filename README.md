@@ -12,9 +12,9 @@ El sistema implementa un grafo cíclico dirigido con **LangGraph** coordinado po
                   ¦   Entrada Usuario    ¦
                   +----------------------+
                              ¦
-                             ?
+                             ¦
                   +----------------------+
-                  ¦      Supervisor      ¦?--------+
+                  ¦      Supervisor      ¦---------+
                   +----------------------+         ¦
                              ¦                     ¦
             +---------------------------------+    ¦
