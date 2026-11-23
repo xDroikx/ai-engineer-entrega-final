@@ -1,0 +1,10 @@
+DOCUMENTO DE POLÍTICAS INTERNAS DE INTELIGENCIA ARTIFICIAL (2026)
+
+1. Política de Aprobación de Presupuesto:
+Toda solicitud de presupuesto o asignación de recursos que supere los USD $5.000 requiere obligatoriamente aprobación humana expresa (Human-in-the-Loop) del comité de finanzas. Las solicitudes por montos iguales o inferiores a USD $5.000 pueden ser auto-aprobadas por el sistema si cuentan con scoring de riesgo bajo.
+
+2. Servidores y Despliegues Críticos:
+Cualquier reinicio de base de datos de producción o actualización de clústeres Kubernetes en horario operativo (08:00 a 20:00 UTC) es clasificada como ACCIÓN CRÍTICA. Requiere revisión previa y confirmación humana.
+
+3. Política de Retención de Datos RAG:
+Los embeddings generados en ChromaDB deben utilizar el modelo text-embedding-3-small de OpenAI. Los documentos indexados tienen una caducidad semántica de 90 días, tras los cuales deben reindexarse con metadatos actualizados.

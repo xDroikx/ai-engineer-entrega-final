@@ -1,0 +1,26 @@
+# 1. Entorno virtual y dependencias
+venv/
+.venv/
+env/
+
+# 2. Secretos y credenciales (CRÍTICO)
+.env
+.env.local
+
+# 3. Compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# 4. Bases de datos locales y persistencia (ChromaDB / SQLite)
+*.db
+*.sqlite3
+chroma_data/
+chroma_db/
+
+# 5. Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
